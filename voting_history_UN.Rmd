@@ -2,17 +2,17 @@
 title: "UN Votes"
 author: "Binny Lee"
 date: "`r Sys.Date()`"
-output: 
-  html_document:
+output:
+  rmarkdown::github_document:
     toc: true
     toc_float: true
 ---
 
 
-We will be using the voting history of countries in the United Nations 
-General Assembly data from the **unvotes** package. 
-Additionally, we will make use of the **tidyverse** and **lubridate** packages 
-for the analysis, and the **DT** package for interactive display of tabular 
+We will be using the voting history of countries in the United Nations
+General Assembly data from the **unvotes** package.
+Additionally, we will make use of the **tidyverse** and **lubridate** packages
+for the analysis, and the **DT** package for interactive display of tabular
 output.
 
 ```{r load-packages, warning=FALSE, message=FALSE}
